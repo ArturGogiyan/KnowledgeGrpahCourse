@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://rdfs.org/ns/void#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.org/Dataset_property5">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:distinctSubjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:classes>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:distinctObjects>
+    <ns1:property rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property18">
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:triples>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctObjects>
+    <ns1:property rdf:resource="http://www.w3.org/2002/07/owl#inverseOf"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class17">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:triples>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:properties>
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctSubjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property9">
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:triples>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:entities>
+    <ns1:property rdf:resource="http://www.w3.org/2002/07/owl#someValuesFrom"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctSubjects>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset">
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class2"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class19"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class16"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property4"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class10"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property18"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class9"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class0"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class4"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class12"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class3"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class15"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class11"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29217</ns1:distinctObjects>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class5"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ns1:properties>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92446</ns1:distinctSubjects>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class13"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property6"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property15"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property16"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property10"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property7"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class18"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:classes>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class1"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class14"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property13"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class7"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316022</ns1:triples>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class17"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property9"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property3"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property17"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property8"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class8"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property0"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property2"/>
+    <ns1:classPartition rdf:resource="http://example.org/Dataset_class6"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property1"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property12"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property5"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property11"/>
+    <ns1:propertyPartition rdf:resource="http://example.org/Dataset_property14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property3">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92437</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:classes>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92437</ns1:distinctSubjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ns1:distinctObjects>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:property rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184848</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class13">
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:distinctObjects>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ns1:entities>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ns1:triples>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:properties>
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class15">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:properties>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:distinctSubjects>
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:distinctObjects>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class0">
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249247</ns1:triples>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72079</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72079</ns1:entities>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns1:properties>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17028</ns1:distinctObjects>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class14">
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</ns1:triples>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:distinctSubjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:properties>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property10">
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315</ns1:distinctSubjects>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns1:distinctObjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315</ns1:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">427</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class8">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</ns1:distinctSubjects>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</ns1:entities>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">190</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class2">
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">54054</ns1:triples>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11548</ns1:distinctObjects>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Musician"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16798</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16798</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class1">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92409</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92409</ns1:entities>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315936</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29196</ns1:distinctObjects>
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class4">
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns1:entities>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Award"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</ns1:triples>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class7">
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre"/>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</ns1:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</ns1:distinctSubjects>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property6">
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53640</ns1:distinctSubjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55557</ns1:triples>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53640</ns1:entities>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ns1:distinctObjects>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class5">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">129</ns1:distinctSubjects>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:properties>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ns1:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property14">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ns1:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:distinctSubjects>
+    <ns1:property rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property2">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:classes>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</ns1:distinctSubjects>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184</ns1:triples>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class19">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:properties>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:entities>
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:triples>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class12">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</ns1:distinctSubjects>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic"/>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</ns1:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class10">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ns1:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</ns1:distinctSubjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432</ns1:triples>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Country"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class3">
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10182</ns1:triples>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">792</ns1:distinctObjects>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:properties>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2375</ns1:distinctSubjects>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2375</ns1:entities>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property17">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:entities>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:distinctObjects>
+    <ns1:property rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:triples>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:distinctSubjects>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class16">
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctSubjects>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:properties>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property0">
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20458</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:classes>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16798</ns1:entities>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#playedIn"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16798</ns1:distinctSubjects>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11546</ns1:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class11">
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</ns1:triples>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#Language"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns1:entities>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</ns1:distinctSubjects>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property11">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:classes>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3003</ns1:triples>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</ns1:distinctObjects>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1858</ns1:distinctSubjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property7">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30051</ns1:entities>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">156</ns1:distinctObjects>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30051</ns1:distinctSubjects>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30051</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:classes>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property13">
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:triples>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:property rdf:resource="http://www.w3.org/2002/07/owl#members"/>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:entities>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class9">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</ns1:triples>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</ns1:entities>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</ns1:distinctSubjects>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property4">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">979</ns1:entities>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</ns1:distinctObjects>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">979</ns1:distinctSubjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">979</ns1:triples>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ns1:classes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property15">
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:entities>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:classes>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:triples>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:distinctSubjects>
+    <ns1:property rdf:resource="http://www.w3.org/2000/01/rdf-schema#subPropertyOf"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property12">
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:classes>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11546</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11546</ns1:entities>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20458</ns1:triples>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16798</ns1:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:property rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#hasMember"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property8">
+    <ns1:property rdf:resource="http://www.w3.org/2000/01/rdf-schema#domain"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:classes>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:triples>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:distinctSubjects>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ns1:distinctObjects>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class6">
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ns1:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:class rdf:resource="http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</ns1:triples>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">53</ns1:distinctObjects>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ns1:distinctSubjects>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68</ns1:entities>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_class18">
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:entities>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctSubjects>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:class rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:triples>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property16">
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ns1:distinctObjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ns1:classes>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:entities>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:triples>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ns1:distinctSubjects>
+    <ns1:property rdf:resource="http://www.w3.org/2000/01/rdf-schema#range"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Dataset_property1">
+    <ns1:classes rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:classes>
+    <ns1:entities rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:entities>
+    <ns1:properties rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:properties>
+    <ns1:distinctSubjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctSubjects>
+    <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+    <ns1:property rdf:resource="http://www.w3.org/2002/07/owl#onProperty"/>
+    <ns1:distinctObjects rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:distinctObjects>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ns1:triples>
+  </rdf:Description>
+</rdf:RDF>
