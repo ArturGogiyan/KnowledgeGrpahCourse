@@ -1,0 +1,336 @@
+@prefix : <http://www.musicbands.com/ontologies/MusicBands.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.musicbands.com/ontologies/MusicBands.owl> .
+
+<http://www.musicbands.com/ontologies/MusicBands.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#bornIn
+:bornIn rdf:type owl:ObjectProperty ,
+                 owl:FunctionalProperty ;
+        rdfs:domain :Musician ;
+        rdfs:range :Country .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin
+:countryOfOrigin rdf:type owl:ObjectProperty ;
+                 rdfs:domain :MusicalGroup ;
+                 rdfs:range :Country .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved
+:hasDeserved rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :MusicalGroup ,
+                         :Musician ;
+             rdfs:range :Award .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre
+:hasGenre rdf:type owl:ObjectProperty ;
+          rdfs:domain :MusicalGroup ,
+                      :Musician ;
+          rdfs:range :MusicalGenre .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#hasMember
+:hasMember rdf:type owl:ObjectProperty ;
+           owl:inverseOf :playedIn ;
+           rdfs:domain :MusicalGroup ;
+           rdfs:range :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#playedIn
+:playedIn rdf:type owl:ObjectProperty ;
+          rdfs:domain :Musician ;
+          rdfs:range :MusicalGroup .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn
+:speaksIn rdf:type owl:ObjectProperty ;
+          rdfs:domain :MusicalGroup ,
+                      :Musician ;
+          rdfs:range :Language .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#careerOver
+:careerOver rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted
+:careerStarted rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:range xsd:integer .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#diedIn
+:diedIn rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:range xsd:integer .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn
+:disbandedIn rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:range xsd:integer .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn
+:foundedIn rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:range xsd:integer .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn
+:wasBorn rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Award
+:Award rdf:type owl:Class .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Country
+:Country rdf:type owl:Class .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic
+:HipHopMusic rdf:type owl:Class ;
+             rdfs:subClassOf :MusicalGenre .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Language
+:Language rdf:type owl:Class .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre
+:MusicalGenre rdf:type owl:Class .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup
+:MusicalGroup rdf:type owl:Class .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Musician
+:Musician rdf:type owl:Class .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup
+:PopGroup rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :MusicalGroup
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :hasGenre ;
+                                                       owl:someValuesFrom :PopMusic
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf :MusicalGroup .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic
+:PopMusic rdf:type owl:Class ;
+          rdfs:subClassOf :MusicalGenre .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup
+:RapGroup rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :MusicalGroup
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :hasGenre ;
+                                                       owl:someValuesFrom :HipHopMusic
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf :MusicalGroup .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup
+:RockGroup rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( :MusicalGroup
+                                                      [ rdf:type owl:Restriction ;
+                                                        owl:onProperty :hasGenre ;
+                                                        owl:someValuesFrom :RockMusic
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:subClassOf :MusicalGroup .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic
+:RockMusic rdf:type owl:Class ;
+           rdfs:subClassOf :MusicalGenre .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Abba
+:Abba rdf:type owl:NamedIndividual ,
+               :MusicalGroup ;
+      :countryOfOrigin :Sweden ;
+      :hasDeserved :MTV_Music_Award ;
+      :hasGenre :Pop_Music ;
+      :speaksIn :English .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Agnetha_Fältskog
+:Agnetha_Fältskog rdf:type owl:NamedIndividual ,
+                           :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Benny_Andersson
+:Benny_Andersson rdf:type owl:NamedIndividual ,
+                          :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Björn_Ulvaeus
+:Björn_Ulvaeus rdf:type owl:NamedIndividual ,
+                        :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour
+:David_Gilmour rdf:type owl:NamedIndividual ,
+                        :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Eminem
+:Eminem rdf:type owl:NamedIndividual ,
+                 :MusicalGroup ;
+        :hasGenre :HipHopMusic .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#English
+:English rdf:type owl:NamedIndividual ,
+                  :Language .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison
+:George_Harrison rdf:type owl:NamedIndividual ,
+                          :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Grammy
+:Grammy rdf:type owl:NamedIndividual ,
+                 :Award .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic
+:HipHopMusic rdf:type owl:NamedIndividual ,
+                      :HipHopMusic .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon
+:John_Lennon rdf:type owl:NamedIndividual ,
+                      :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award
+:MTV_Music_Award rdf:type owl:NamedIndividual ,
+                          :Award .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason
+:Nick_Mason rdf:type owl:NamedIndividual ,
+                     :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney
+:Paul_McCartney rdf:type owl:NamedIndividual ,
+                         :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd
+:Pink_Floyd rdf:type owl:NamedIndividual ,
+                     :MusicalGroup ;
+            :countryOfOrigin :United_Kingdom ;
+            :hasDeserved :Grammy ;
+            :hasGenre :Rock_Music ;
+            :hasMember :David_Gilmour ,
+                       :Nick_Mason ,
+                       :Richard_Wright ,
+                       :Roger_Waters ;
+            :speaksIn :English .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music
+:Pop_Music rdf:type owl:NamedIndividual ,
+                    :PopMusic .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright
+:Richard_Wright rdf:type owl:NamedIndividual ,
+                         :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr
+:Ringo_Starr rdf:type owl:NamedIndividual ,
+                      :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music
+:Rock_Music rdf:type owl:NamedIndividual ,
+                     :RockMusic .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters
+:Roger_Waters rdf:type owl:NamedIndividual ,
+                       :Musician .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#Sweden
+:Sweden rdf:type owl:NamedIndividual ,
+                 :Country .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles
+:The_Beatles rdf:type owl:NamedIndividual ,
+                      :MusicalGroup ;
+             :countryOfOrigin :United_Kingdom ;
+             :hasGenre :Rock_Music ;
+             :hasMember :George_Harrison ,
+                        :John_Lennon ,
+                        :Paul_McCartney ,
+                        :Ringo_Starr ;
+             :speaksIn :English .
+
+
+###  http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom
+:United_Kingdom rdf:type owl:NamedIndividual ,
+                         :Country .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :HipHopMusic
+                :PopMusic
+                :RockMusic
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

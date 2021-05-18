@@ -1,0 +1,385 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic"
+    }, {
+      "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic"
+    }, {
+      "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+    }, {
+      "@id" : "_:genid7"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+    }, {
+      "@id" : "_:genid11"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Abba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup" ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Sweden"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#English"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Agnetha_Fältskog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Award",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Benny_Andersson",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Björn_Ulvaeus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Eminem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup" ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#English",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Language" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Grammy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Award" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Award" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup" ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Grammy"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasMember" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#English"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Musician" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Sweden",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Country" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup" ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#hasMember" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr"
+  } ],
+  "http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#English"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.musicbands.com/ontologies/MusicBands.owl#Country" ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#bornIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Country"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#careerOver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Country"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#diedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Award"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#hasMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#playedIn"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#playedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup"
+  }, {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Musician"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#Language"
+  } ]
+}, {
+  "@id" : "http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+} ]

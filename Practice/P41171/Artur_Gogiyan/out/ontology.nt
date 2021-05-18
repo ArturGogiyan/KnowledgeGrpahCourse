@@ -1,0 +1,320 @@
+<http://www.musicbands.com/ontologies/MusicBands.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#bornIn
+<http://www.musicbands.com/ontologies/MusicBands.owl#bornIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#bornIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#bornIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#bornIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#Country> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin
+<http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#Country> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#Award> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#hasMember
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.musicbands.com/ontologies/MusicBands.owl#playedIn> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#playedIn
+<http://www.musicbands.com/ontologies/MusicBands.owl#playedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#playedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#playedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn
+<http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.musicbands.com/ontologies/MusicBands.owl#Language> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#careerOver
+<http://www.musicbands.com/ontologies/MusicBands.owl#careerOver> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#careerOver> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#careerOver> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted
+<http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#careerStarted> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#diedIn
+<http://www.musicbands.com/ontologies/MusicBands.owl#diedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#diedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#diedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn
+<http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#disbandedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn
+<http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#foundedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn
+<http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#wasBorn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Award
+<http://www.musicbands.com/ontologies/MusicBands.owl#Award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Country
+<http://www.musicbands.com/ontologies/MusicBands.owl#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic
+<http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Language
+<http://www.musicbands.com/ontologies/MusicBands.owl#Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre
+<http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup
+<http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Musician
+<http://www.musicbands.com/ontologies/MusicBands.owl#Musician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup
+<http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#PopGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic
+<http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup
+<http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#RapGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup
+<http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#RockGroup> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic
+<http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGenre> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Abba
+<http://www.musicbands.com/ontologies/MusicBands.owl#Abba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Abba> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Abba> <http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin> <http://www.musicbands.com/ontologies/MusicBands.owl#Sweden> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Abba> <http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Abba> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Abba> <http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.musicbands.com/ontologies/MusicBands.owl#English> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Agnetha_Fältskog
+<http://www.musicbands.com/ontologies/MusicBands.owl#Agnetha_F\u00E4ltskog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Agnetha_F\u00E4ltskog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Benny_Andersson
+<http://www.musicbands.com/ontologies/MusicBands.owl#Benny_Andersson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Benny_Andersson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Björn_Ulvaeus
+<http://www.musicbands.com/ontologies/MusicBands.owl#Bj\u00F6rn_Ulvaeus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Bj\u00F6rn_Ulvaeus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour
+<http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Eminem
+<http://www.musicbands.com/ontologies/MusicBands.owl#Eminem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Eminem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Eminem> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#English
+<http://www.musicbands.com/ontologies/MusicBands.owl#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#English> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Language> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison
+<http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Grammy
+<http://www.musicbands.com/ontologies/MusicBands.owl#Grammy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Grammy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Award> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic
+<http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon
+<http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award
+<http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#MTV_Music_Award> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Award> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason
+<http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney
+<http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin> <http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#hasDeserved> <http://www.musicbands.com/ontologies/MusicBands.owl#Grammy> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#David_Gilmour> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#Nick_Mason> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pink_Floyd> <http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.musicbands.com/ontologies/MusicBands.owl#English> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Pop_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright
+<http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Richard_Wright> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr
+<http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music
+<http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters
+<http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Roger_Waters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Musician> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#Sweden
+<http://www.musicbands.com/ontologies/MusicBands.owl#Sweden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#Sweden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Country> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#MusicalGroup> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#countryOfOrigin> <http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#hasGenre> <http://www.musicbands.com/ontologies/MusicBands.owl#Rock_Music> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#George_Harrison> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#John_Lennon> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#Paul_McCartney> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#hasMember> <http://www.musicbands.com/ontologies/MusicBands.owl#Ringo_Starr> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#The_Beatles> <http://www.musicbands.com/ontologies/MusicBands.owl#speaksIn> <http://www.musicbands.com/ontologies/MusicBands.owl#English> .
+# 
+# http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom
+<http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.musicbands.com/ontologies/MusicBands.owl#United_Kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.musicbands.com/ontologies/MusicBands.owl#Country> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid13 <http://www.w3.org/2002/07/owl#members> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.musicbands.com/ontologies/MusicBands.owl#HipHopMusic> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.musicbands.com/ontologies/MusicBands.owl#PopMusic> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.musicbands.com/ontologies/MusicBands.owl#RockMusic> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
